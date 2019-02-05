@@ -6,59 +6,18 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Welcome to HBTU sports meet</title>
+	<title>AAGAZ '19</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Acme|Pacifico|Kosugi|Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Acme|Pacifico|Kosugi|Lato|Black+Ops+One|Bubblegum+Sans|Fredericka+the+Great|Limelight|Monoton|Shojumaru" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lobster|Righteous|Indie+Flower|Courgette" rel="stylesheet">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <style>
-	body{
-	overflow: hidden;
-}
 
-.hello{
-	font-family: 'Bowlby One SC', cursive;
-	font-size: 10vw;
-	width: 100vw;
-	margin-top: calc(50vh - 10vw);
-	text-align: center;
-	background: linear-gradient(
-		60deg,
-		hsl(0, 75%, 50%) 10%,
-		hsl(20, 75%, 50%) 10%,
-		hsl(20, 75%, 50%) 25%,
-		hsl(50, 75%, 50%) 25%,
-		hsl(50, 75%, 50%) 40%,
-		hsl(130, 75%, 50%) 40%,
-		hsl(130, 75%, 50%) 55%,
-		hsl(200, 75%, 50%) 55%,
-		hsl(200, 75%, 50%) 70%,
-		hsl(260, 75%, 50%) 70%,
-		hsl(260, 75%, 50%) 85%,
-		hsl(0, 75%, 50%) 85%
-	);
-
-	text-shadow: 0.5px -0.6vw #fff4;
-	color: #fff;
-	-webkit-background-clip: text;
-   	-webkit-text-fill-color: transparent;
-   	animation: 10s BeProud linear infinite,
-   	3s Always ease alternate infinite;
-}
-
-@keyframes BeProud {
-	100% { background-position: 100vw 0px; }
-}
-
-@keyframes Always {
-	100% { transform: scale(1.1);}
-}
 
 /* Full-width input fields */
 input[type=text], input[type=password] ,input[type=email] , input[type=number] {
@@ -182,95 +141,11 @@ hr {
      width: 100%;
   }
 }
-    * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
-.buttons {
-    margin: 10%;
-    text-align: center;
-}
-
-.btn-hover {
-    width: 200px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
-    margin: 20px;
-    height: 55px;
-    text-align:center;
-    border: none;
-    background-size: 300% 100%;
-
-    border-radius: 50px;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-}
-
-.btn-hover:hover {
-    background-position: 100% 0;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-}
-
-.btn-hover:focus {
-    outline: none;
-}
-
-.btn-hover.color-1 {
-    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
-    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
-}
-.btn-hover.color-2 {
-    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
-    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
-}
-.btn-hover.color-3 {
-    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
-    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
-}
-.btn-hover.color-4 {
-    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
-    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
-}
-.btn-hover.color-5 {
-    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
-    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
-}
-.btn-hover.color-6 {
-    background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
-    box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
-}
-.btn-hover.color-7 {
-    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
-    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
-}
-.btn-hover.color-8 {
-    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
-    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
-}
-.btn-hover.color-9 {
-    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
-    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
-}
-.btn-hover.color-10 {
-        background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
-    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
-}
-.btn-hover.color-11 {
-       background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
-}
 </style>	
 
 
-<body style="background-image: url(giphy.webp);">
+<body style="background-image: url(https://media.giphy.com/media/TxVVB6PfWMjE4/giphy.gif);">
   
   		<!--<div id="snackbar">Registrations are closed.</div>-->
     <nav class="navbar navbar-inverse navbar-fixed-top" >
@@ -279,7 +154,7 @@ hr {
 
 	<a class="navbar-brand " href="index.php" style="padding:10px! important;">
 	<!-- Change url when upload the website -->
-	<p style="height:100%;font-family: 'Baloo Thambi';font-size:45px;padding:8px 0px 0px 0px;color: red;">FLICK'19</p></a>
+	<p style="height:100%; font-family: 'Black Ops One', cursive; font-size:45px;padding:8px 0px 0px 0px;color: red;">AAGAZ '19</p></a>
 
 
 	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -298,7 +173,6 @@ hr {
 		<li><a href="schedule.php"><b style="color: white;">SCHEDULE</b></a></li>
 	<li><a href="gallery.php"><b style="color: white;">GALLERY</b></a></li>
 		<li><a href="contact.php"><b style="color: white;">CONTACT US</b></a></li>
-		<li><a href="aboutus.php"><b style="color: white;">ABOUT US</b></a></li>
 </ul>
 </div>
 	</div>
@@ -308,46 +182,34 @@ hr {
 <br><br><br>
   <div class="row">
   	<div class="col-sm-6">
-</div>
- 
+  <a onclick="document.getElementById('id02').style.display='block'" id="log" ><button class="btn btn-danger" style="border-width: 4px;border-color: red;color: white;border-radius: 50%">LOGIN</button></a></div>
+  
   	<div class="col-sm-6">
-  	<div align="right">  <a onclick="document.getElementById('id02').style.display='block'" id="log" ><button class="btn btn-link  " style="border-width: 4px;border-color: red;color: red;border-radius: 50%">LOGIN</button></a></div>
+  		<div align="right"><a onclick="document.getElementById('id01').style.display='block'" id="sign"><button class="btn btn-danger" style="border-width: 4px;border-color: red;color: white;border-radius: 50%">SIGNUP</button></a></div>
   		<div align="right" hidden="" id="out"><button class="btn btn-danger" style="border-width: 4px;border-color: red;color: white;border-radius: 50%;"><a style="color: white;" href="logout.php" >Log out</a></div>
   	</div>
   </div> 
 	
 	
 
-  <center>< <h1 class="w3-container w3-center w3-animate-top" style="font-size: 6vw;color: white;font-family: 'Baloo Thambi';-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" onselectstart = "return false" >HBTU KANPUR</h1>
-  	 <h2 class="w3-center w3-animate-left" style="color: white;font-family: 'Lobster';-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" onselectstart="return false">PRESENTS</h2>
-  		<h1  class="w3-center w3-animate-left hello" style="font-family: 'Baloo Thambi';-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;margin-top: 0vw;" onselectstart ="return false ">FLICK 2019</h1>
-  		<h2 class="w3-center w3-animate-left" style="color: white;font-family: 'Lobster';-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" onselectstart = "return false">1 MAR - 3 MAR</h2>
+  <center>< <h1 style="font-size: 6vw;color: white;font-family: 'Fredericka the Great', cursive;;-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" onselectstart = "return false" >HBTU KANPUR</h1>
+  	 <h2 style="color: white;font-family: 'Bubblegum Sans';-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" onselectstart="return false">PRESENTS</h2>
+  		<h2 style="font-size: 4.3vw;color: red;font-family: 'Black Ops One';-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" onselectstart ="return false ">AAGAZ 2019</h2>
+  		<h2 style="color: white;font-family: 'Bubblegum Sans';-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" onselectstart = "return false">1 MAR - 3 MAR</h2>
   	</center>
   	<br><br>
-  <a  onclick="document.getElementById('id01').style.display='block'" id="sign">	<center><button class="btn btn-link w3-animate-zoom" style="border-width: 4px;border-color: white;color: white;font-family: 'Righteous'"><h3>REGISTER</h3></button></center></a><br><br><br>
+  <a href="events.php">	<center><button class="btn btn-link" style="border-width: 4px;border-color: white;color: white;font-family: 'Righteous'"><h3>REGISTER FOR EVENTS</h3></button></center></a><br><br><br>
   
    <hr>
-   <center><h1 style="font-family: 'Baloo Thambi';font-size: 4vw;color: red;-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;"> FLICK HBTU 2019</h1></center>
+   <center><h1 style="font-family: 'Black Ops One';font-size: 4vw;color: red;-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;"> AAGAZ HBTU 2019</h1></center>
    <hr>
-   <center>
-   	<h3 style="color: white;font-family: Courgette;-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;"><span style="color: red;">FLICK</span> is the annual sport meet of HBTU Kanpur . It is one of the most</h3>
-   	<h3 style="color: white;font-family: Courgette;-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;">popular event in HBTU . Students from various college come and participate</h3>
-   	<h3 style="color: white;font-family: Courgette;-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;">FLICK helps the sports person of various college to compete with each other.</h3>
-   </center>
-   <div class="buttons" style="margin-top: 1.8vw;">
-    <button class="btn-hover color-1">TABLE TENNIS</button>
-    <button class="btn-hover color-2">CHESS</button>
-    <button class="btn-hover color-3">ATHLETICS</button>
-    <button class="btn-hover color-4">BUTTON</button>
-    <button class="btn-hover color-5">BUTTON</button>
-    <button class="btn-hover color-6">BUTTON</button>
-    <button class="btn-hover color-7">BUTTON</button>
-    <button class="btn-hover color-8">BUTTON</button>
-    <button class="btn-hover color-9">BUTTON</button>
-    <button class="btn-hover color-10">BUTTON</button>
-    <button class="btn-hover color-11">BUTTON</button>
-</div>
-
+   <center><font size="8">
+   	<h3 style="color: white;font-family: Bubblegum Sans;-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;"><span style="color: red;">AAGAZ</span> is the annual sport meet of HBTU Kanpur . It is one of the most</h3>
+   	<h3 style="color: white;font-family: Bubblegum Sans;-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;">popular event in HBTU . Students from various college come and participate</h3>
+   	<h3 style="color: white;font-family: Bubblegum Sans;-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;">AAGAZ helps the sports person of various college to compete with each other.</h3>
+   </font></center><br><br>
+   <img src="1.png" width="100%" height="400vw">
+<br><br><br>
 	<div class="clearfix" style="background-image: url(7.jpg);">
 	    <div class="text-center center">
 	    <div class="page-footer info-color center-on-small-only"  data-aos="zoom-in" data-aos-duration="1000">
@@ -359,7 +221,6 @@ hr {
 					<a href="leagues.php" style="color: white;">Schedule</a> |
 			    <a target="_blank" href="" style="color: white;">Gallery</a> |
 			    <a href="contact.php" style="color: white;">Contact Us</a>
-			     <a href="aboutus.php" style="color: white;">About Us</a>
 			 </p>
 		</div>
 
